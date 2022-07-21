@@ -10,7 +10,7 @@ npm start
 # Creating new Practice Folder
 
 ## step 1
-git branch <branch name>
+git branch < branch name>
 ## step 2
 Create folder in Practice directory
 ## step 3
