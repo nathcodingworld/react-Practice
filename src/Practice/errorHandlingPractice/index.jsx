@@ -5,12 +5,15 @@ const ErrorHandlingPractice = () => {
   return (
     <>
       <ErrorHandler>
-        <ErrorTest haserror={false} ifnot="theres is no Error" />
-      </ErrorHandler>
-      <ErrorHandler>
-        <ErrorTest haserror={false} ifnot="Walag Errorrrrr" />
-      </ErrorHandler>
-      <ErrorHandler>
+        <ErrorHandler>
+          <ErrorTest haserror={false} ifnot="theres is no Error" />
+        </ErrorHandler>
+        <ErrorHandler>
+          <ErrorTest haserror={false} ifnot="Walag Errorrrrr" />
+        </ErrorHandler>
+        <ErrorHandler>
+          <ErrorTest haserror={true} ifnot="theres is no Error" />
+        </ErrorHandler>
         <ErrorTest haserror={true} ifnot="theres is no Error" />
       </ErrorHandler>
     </>

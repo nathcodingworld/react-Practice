@@ -5,8 +5,8 @@ import SuspenceHandlerPractice from "./Practice/suspenceHanderPractice";
 function App() {
   return (
     <div className="App">
-      {/* <ErrorHandlingPractice /> */}
-      <SuspenceHandlerPractice />
+      <ErrorHandlingPractice />
+      {/* <SuspenceHandlerPractice /> */}
     </div>
   );
 }
